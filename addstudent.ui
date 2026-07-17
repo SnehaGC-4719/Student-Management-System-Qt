@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addStudent</class>
+ <widget class="QWidget" name="addStudent">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+    background-color:#F5F7FA;
+}</string>
+  </property>
+  <widget class="QLabel" name="lblTitle">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#1565C0;
+}</string>
+   </property>
+   <property name="text">
+    <string>ADD STUDENT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblStudentId">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>StudentId:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblName">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblAge">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Age:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblGender">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Gender:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDepartment">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Department:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblPhone">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Phone:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblEmail">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Email:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtStundentId">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>50</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtName">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>90</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtAge">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPhone">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>240</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtEmail">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>280</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rdoMale">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>170</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+    color:#37474F;
+    font-size:11pt;
+    font-weight:500;
+    spacing:8px;
+}
+
+QRadioButton::indicator
+{
+    width:16px;
+    height:16px;
+}
+
+QRadioButton::indicator:unchecked
+{
+    border:2px solid #90A4AE;
+    border-radius:8px;
+    background:white;
+}
+
+QRadioButton::indicator:checked
+{
+    border:2px solid #1976D2;
+    border-radius:8px;
+    background:#1976D2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Male</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rdoFemale">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>170</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <fontweight>Medium</fontweight>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+    color:#37474F;
+    font-size:11pt;
+    font-weight:500;
+    spacing:8px;
+}
+
+QRadioButton::indicator
+{
+    width:16px;
+    height:16px;
+}
+
+QRadioButton::indicator:unchecked
+{
+    border:2px solid #90A4AE;
+    border-radius:8px;
+    background:white;
+}
+
+QRadioButton::indicator:checked
+{
+    border:2px solid #1976D2;
+    border-radius:8px;
+    background:#1976D2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Female</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbDepartment">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    font-size:11pt;
+}
+
+QComboBox:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Department</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Computer Science</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Electronics And Communication</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mechanical</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Civil</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Electrical</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Information Science</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="txtAddress">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>330</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    background:white;
+    padding:5px;
+    font-size:11pt;
+}
+
+QPlainTextEdit:focus
+{
+    border:2px solid #1976D2;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSave">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:11pt;
+    font-weight:bold;
+    padding:6px;
+}
+
+QPushButton:hover
+{
+    background-color:#43A047;
+}
+
+QPushButton:pressed
+{
+    background-color:#388E3C;
+}</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>400</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#FF9800;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:11pt;
+    font-weight:bold;
+    padding:6px;
+}
+
+QPushButton:hover
+{
+    background-color:#FB8C00;
+}</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>400</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:11pt;
+    font-weight:bold;
+    padding:6px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblAddress">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>330</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}</string>
+   </property>
+   <property name="text">
+    <string>Address:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

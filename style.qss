@@ -1,0 +1,277 @@
+/* ===========================
+   Main Window Background
+=========================== */
+
+QWidget
+{
+    background-color: #F5F7FA;
+    font-family: Segoe UI;
+    font-size: 11pt;
+}
+
+/* ===========================
+   Labels
+=========================== */
+
+QLabel
+{
+    color: #37474F;
+    font-weight: bold;
+}
+
+/* ===========================
+   Title Label
+=========================== */
+
+#lblTitle
+{
+    color: #1565C0;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+/* ===========================
+   Line Edit
+=========================== */
+
+QLineEdit
+{
+    background: white;
+    border: 2px solid #B0BEC5;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QLineEdit:focus
+{
+    border: 2px solid #1976D2;
+}
+
+/* ===========================
+   Combo Box
+=========================== */
+
+QComboBox
+{
+    background: white;
+    border: 2px solid #B0BEC5;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QComboBox:focus
+{
+    border: 2px solid #1976D2;
+}
+
+/* ===========================
+   Plain Text Edit
+=========================== */
+
+QPlainTextEdit
+{
+    background: white;
+    border: 2px solid #B0BEC5;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QPlainTextEdit:focus
+{
+    border: 2px solid #1976D2;
+}
+
+/* ===========================
+   Radio Button
+=========================== */
+
+QRadioButton
+{
+    color: #37474F;
+}
+
+/* ===========================
+   Push Button
+=========================== */
+
+QPushButton
+{
+    background: #1976D2;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover
+{
+    background: #1565C0;
+}
+
+QPushButton:pressed
+{
+    background: #0D47A1;
+}
+
+/* ===========================
+   Save Button
+=========================== */
+
+#btnSave
+{
+    background: #4CAF50;
+}
+
+#btnSave:hover
+{
+    background: #43A047;
+}
+
+/* ===========================
+   Delete Button
+=========================== */
+
+#btnDelete
+{
+    background: #E53935;
+}
+
+#btnDelete:hover
+{
+    background: #C62828;
+}
+
+/* ===========================
+   Clear Button
+=========================== */
+
+#btnClear
+{
+    background: #FB8C00;
+}
+
+#btnClear:hover
+{
+    background: #EF6C00;
+}
+
+
+
+
+#btnSearch
+{
+    background: #1976D2;
+}
+
+#btnSearch:hover
+{
+    background: #1565C0;
+}
+
+#btnUpdate
+{
+    background: #8E24AA;
+}
+
+#btnUpdate:hover
+{
+    background: #6A1B9A;
+}
+
+#btnClose
+{
+    background: #616161;
+}
+
+#btnClose:hover
+{
+    background: #424242;
+}
+
+#btnBack
+{
+    background: #009688;
+}
+
+#btnBack:hover
+{
+    background: #00796B;
+}
+
+#btnLogin
+{
+    background: #43A047;
+}
+
+#btnLogin:hover
+{
+    background: #2E7D32;
+}
+
+#btnExit
+{
+    background: #E53935;
+}
+
+#btnExit:hover
+{
+    background: #C62828;
+}
+
+
+
+/* ===========================
+   Search Button
+=========================== */
+
+#btnSearch
+{
+    background: #2196F3;
+}
+
+#btnSearch:hover
+{
+    background: #1976D2;
+}
+
+/* ===========================
+   Update Button
+=========================== */
+
+#btnUpdate
+{
+    background: #9C27B0;
+}
+
+#btnUpdate:hover
+{
+    background: #7B1FA2;
+}
+
+/* ===========================
+   Close Button
+=========================== */
+
+#btnClose
+{
+    background: #616161;
+}
+
+#btnClose:hover
+{
+    background: #424242;
+}
+
+/* ===========================
+   Refresh Button
+=========================== */
+
+#btnRefresh
+{
+    background: #00ACC1;
+}
+
+#btnRefresh:hover
+{
+    background: #00838F;
+}

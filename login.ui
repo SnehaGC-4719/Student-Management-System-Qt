@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+    background-color:#F5F7FA;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#1565C0;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>STUDENT MANAGEMENT SYSTEM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Username:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtUsername">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>70</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    color:#37474F;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Password:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPassword">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>110</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+    border:2px solid #B0BEC5;
+    border-radius:8px;
+    padding:5px;
+    background:white;
+    color:black;
+    font-size:11pt;
+}
+
+QLineEdit:focus
+{
+    border:2px solid #1976D2;
+}
+</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::EchoMode::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLogin">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>160</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:11pt;
+    font-weight:bold;
+    padding:6px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnExit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:#D32F2F;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:11pt;
+    font-weight:bold;
+    padding:6px;
+}
+
+QPushButton:hover
+{
+    background-color:#C62828;
+}
+
+QPushButton:pressed
+{
+    background-color:#B71C1C;
+}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

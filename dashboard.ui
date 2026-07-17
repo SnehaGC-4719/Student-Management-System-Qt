@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dashboard</class>
+ <widget class="QMainWindow" name="Dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>984</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(240,245,250);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelTitle">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>600</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+    color:#1565C0;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Student Management System</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frameMenu">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>90</y>
+      <width>311</width>
+      <height>560</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+    background:white;
+    border-radius:15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btnAdd">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>250</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:12pt;
+    font-weight:bold;
+    padding:8px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+     </property>
+     <property name="text">
+      <string>Add Student</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSearch">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>250</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:12pt;
+    font-weight:bold;
+    padding:8px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+     </property>
+     <property name="text">
+      <string>Search Student</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnDelete">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>250</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:12pt;
+    font-weight:bold;
+    padding:8px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+     </property>
+     <property name="text">
+      <string>Delete Student</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnView">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>270</y>
+       <width>250</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:12pt;
+    font-weight:bold;
+    padding:8px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+     </property>
+     <property name="text">
+      <string>View Student</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnUpdate">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>350</y>
+       <width>250</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:12pt;
+    font-weight:bold;
+    padding:8px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+     </property>
+     <property name="text">
+      <string>Update Student</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnLogout">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>430</y>
+       <width>250</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    background-color:#1976D2;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:12pt;
+    font-weight:bold;
+    padding:8px;
+}
+
+QPushButton:hover
+{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed
+{
+    background-color:#0D47A1;
+}</string>
+     </property>
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="labelWelcome">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+    color: rgb(30,30,30);
+}</string>
+    </property>
+    <property name="text">
+     <string>Welcome Administrator</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>130</y>
+      <width>341</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:gray;</string>
+    </property>
+    <property name="text">
+     <string>Manage Student Record Quickly And Efficiently</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>369</x>
+      <y>149</y>
+      <width>511</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>600</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:gray;</string>
+    </property>
+    <property name="text">
+     <string>@2026 Student Management System</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>620</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>984</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
