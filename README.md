@@ -65,3 +65,47 @@ StudentManagementSystem
 ## ⭐ If you like this project
 
 Please consider giving it a ⭐ on GitHub.
+
+---
+
+# 📷 Application Screenshots
+
+## 🔐 Login Window
+
+![Login](login.png)
+
+---
+
+## 🏠 Dashboard
+
+![Dashboard](dashboard.png)
+
+---
+
+## ➕ Add Student
+
+![Add Student](add-student.png)
+
+---
+
+## 🔍 Search Student
+
+![Search Student](search-student.png)
+
+---
+
+## ✏️ Update Student
+
+![Update Student](update-student.png)
+
+---
+
+## ❌ Delete Student
+
+![Delete Student](delete-student.png)
+
+---
+
+## 📋 View Students
+
+![View Students](view-students.png)
